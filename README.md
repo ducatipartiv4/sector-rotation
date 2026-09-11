@@ -2,8 +2,8 @@
 
 **Live page: https://ducatipartiv4.github.io/sector-rotation/**
 
-An interactive Relative Rotation Graph of the 11 S&P 500 sector ETFs (XLK, XLF, XLC, XLY, XLV, XLI, XLP, XLE, XLU, XLRE, XLB)
-against a benchmark (SPY by default; RSP and QQQ selectable). Every sector is a dot that rotates clockwise through four quadrants:
+An interactive Relative Rotation Graph of the 11 S&P 500 sector ETFs (XLK, XLF, XLC, XLY, XLV, XLI, XLP, XLE, XLU, XLRE, XLB),
+plus the SMH and IGV industry groups, against a benchmark (SPY by default; RSP and QQQ selectable). Every sector is a dot that rotates clockwise through four quadrants:
 
 | Quadrant | Color | Meaning |
 |---|---|---|
@@ -13,6 +13,9 @@ against a benchmark (SPY by default; RSP and QQQ selectable). Every sector is a 
 | **Improving** | yellow | underperforming, momentum turning up |
 
 Rotation runs Improving → Leading → Weakening → Lagging → Improving.
+
+Two industry groups ride along on the same math: **SMH** (semiconductors) and **IGV** (software). They are drawn as
+diamonds (◆) and listed after the sectors in the board, the ribbon and the table, so they read apart from the 11 S&P sectors.
 
 ## Using the page
 - **Period:** daily closes or weekly closes. **Range:** 1M / 3M / 6M / YTD / All. **Smoothing:** fast / standard / slow.
