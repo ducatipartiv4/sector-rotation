@@ -555,7 +555,7 @@ function drawHeader() {
     `<b>RS-Momentum</b> = 100 + the z-score of RS-Ratio against its last ${p[1]} ${unit} (the ratio's own momentum, y). ` +
     `Quadrants: Leading ≥100/≥100 · Weakening ≥100/&lt;100 · Lagging &lt;100/&lt;100 · Improving &lt;100/≥100 — the public JdK RRG approximation (StockCharts' exact series is proprietary). ` +
     `Weekly = the last close of each ISO week${comp.partial ? ', the current week in progress' : ''}. ` +
-    `A change marked <i>brief</i> reversed within two periods. Data: moomoo OpenD daily bars, ${DATA.dates.length} sessions back to ${fmtDate(DATA.dates[0], true)}; refreshed every weekday at 08:05 ET, every 30 minutes during the session, and after the close at 16:25 ET.`;
+    `A change marked <i>brief</i> reversed within two periods. Data: moomoo OpenD daily bars, ${DATA.dates.length} sessions back to ${fmtDate(DATA.dates[0], true)}; refreshed every weekday at 08:05 ET, every four hours during the session (09:35 and 13:35 ET), and after the close at 16:25 ET.`;
 }
 
 // ---------------------------------------------------------------- draw everything
