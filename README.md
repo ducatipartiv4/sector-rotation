@@ -31,7 +31,7 @@ approximation of the JdK RRG; StockCharts' exact series is proprietary.
 
 ## Data and updates
 Daily closes from a moomoo OpenD feed, 750 sessions of history. The page is regenerated and pushed automatically every weekday:
-at 08:00, 10:00 and 16:00 ET (the 10:00 run shows today's point live).
+at 08:00, 10:00 and 16:05 ET (the 10:00 run shows today's point live; 16:05 captures the official close).
 The timestamp in the header says when it was last updated.
 
 *Not investment advice. Market data can be delayed or wrong; verify before acting.*
